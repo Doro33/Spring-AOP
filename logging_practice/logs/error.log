@@ -1,0 +1,2 @@
+2025-07-15 09:09:39 ERROR c.e.l.log.LoggingAspect - Method factorial called with args [sas] → threw exception: java.lang.IllegalArgumentException: Invalid input: not a number
+2025-07-15 09:09:39 ERROR c.e.l.log.LoggingAspect - Method factorial called with args [sas] → threw exception: java.lang.IllegalArgumentException: Invalid input: not a number

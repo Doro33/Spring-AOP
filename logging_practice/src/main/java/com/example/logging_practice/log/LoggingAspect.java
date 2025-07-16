@@ -43,7 +43,7 @@ public class LoggingAspect {
     @AfterThrowing(pointcut = "@annotation(com.example.logging_practice.log.Loggable)", throwing = "ex")
     public void logException(JoinPoint joinPoint, Exception ex) {
         log.error("Method {} called with args {} → threw exception: {}",
-                joinPoint.getSignature().getName(), joinPoint.getArgs(), ex.toString());
+                joinPoint.getSignature().getName(), joinPoint.getArgs(), Arrays.toString(ex.getStackTrace()));
 
         ErrorLog errorLog = new ErrorLog();
         errorLog.setMethodName(joinPoint.getSignature().toShortString());

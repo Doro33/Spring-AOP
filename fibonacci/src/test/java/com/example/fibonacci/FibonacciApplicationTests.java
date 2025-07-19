@@ -35,7 +35,7 @@ class FibonacciApplicationTests {
 
     @Test
     void testValidInput() throws Exception {
-        when(mockService.fibonacci("10")).thenReturn(BigInteger.valueOf(55));
+        when(mockService.fibonacci(10)).thenReturn(BigInteger.valueOf(55));
 
         mockMvc.perform(get("/fibonacci/10"))
                 .andExpect(status().isOk())
@@ -44,7 +44,7 @@ class FibonacciApplicationTests {
 
     @Test
     void testValidBigInput() throws Exception {
-        String input = "100";
+        int input = 100;
         String expected = "354224848179261915075";
 
         when(mockService.fibonacci(input)).thenReturn(new BigInteger(expected));
@@ -56,7 +56,7 @@ class FibonacciApplicationTests {
 
     @Test
     void testNegativeInput() throws Exception {
-        when(mockService.fibonacci("-3")).thenThrow(new IllegalArgumentException("Index cannot be negative"));
+        when(mockService.fibonacci(-3)).thenThrow(new IllegalArgumentException("Index cannot be negative"));
 
         mockMvc.perform(get("/fibonacci/-3"))
                 .andExpect(status().isBadRequest())
@@ -66,8 +66,6 @@ class FibonacciApplicationTests {
 
     @Test
     void testNonNumericInput() throws Exception {
-        when(mockService.fibonacci("abc")).thenThrow(new IllegalArgumentException("Input must be a valid integer."));
-
         mockMvc.perform(get("/fibonacci/abc"))
                 .andExpect(status().isBadRequest())
                 .andExpect(jsonPath("$.error").value("Bad Request"))

@@ -1,10 +1,8 @@
-name: Build and Test
+name: Build and Deploy
 
 on:
   push:
-    paths:
-      - 'fibonacci/**'
-  pull_request:
+    branches: [ main ]
     paths:
       - 'fibonacci/**'
 
@@ -12,21 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    services:
-      redis:
-        image: redis
-        ports:
-          - 6379:6379
-
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Install redis-cli
-        run: sudo apt-get update && sudo apt-get install -y redis-tools
-
-      - name: Wait for Redis
-        run: ./wait-for-redis.sh localhost 6379 30
 
       - name: Set up JDK 21
         uses: actions/setup-java@v3
@@ -41,6 +27,15 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-maven
 
-      - name: Build and test with Maven
+      - name: Build with Maven
         working-directory: ./fibonacci
-        run: ./mvnw clean verify
+        run: ./mvnw clean package -DskipTests
+
+      - name: Log in to Docker Hub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+      - name: Build Docker image
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/fibonacci:latest ./fibonacci
+
+      - name: Push Docker image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/fibonacci:latest

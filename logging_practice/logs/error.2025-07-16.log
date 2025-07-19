@@ -1,0 +1,22 @@
+2025-07-16 17:14:38 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-16 17:29:13 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Value too long for column "RESULT CHARACTER VARYING(255)": "'6614085609277946709098331671242769902123531945610789666306100915080665183984629... (1284)"; SQL statement:
+insert into info_log (input,method_name,result,timestamp,id) values (?,?,?,?,?) [22001-224]
+2025-07-16 17:29:20 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Value too long for column "RESULT CHARACTER VARYING(255)": "'1220136825991110068701238785423046926253574342803192842192413588385845373153881... (1135)"; SQL statement:
+insert into info_log (input,method_name,result,timestamp,id) values (?,?,?,?,?) [22001-224]
+2025-07-16 17:29:36 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Value too long for column "RESULT CHARACTER VARYING(255)": "'7710530113353860041446393977750283605955564018160102391634109940339708518270930... (1977)"; SQL statement:
+insert into info_log (input,method_name,result,timestamp,id) values (?,?,?,?,?) [22001-224]
+2025-07-16 17:34:32 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Value too long for column "RESULT CHARACTER VARYING(255)": "'2422040124750272179867875093812352218590983385729207299450679664929938160215647... (1690)"; SQL statement:
+insert into info_log (input,method_name,result,timestamp,id) values (?,?,?,?,?) [22001-224]

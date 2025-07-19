@@ -1,0 +1,157 @@
+2025-07-16 12:09:45 INFO  c.e.l.LoggingPracticeApplication - Starting LoggingPracticeApplication using Java 21.0.6 with PID 16812 (/home/amirhosein/Projects/doro/Spring-AOP/logging_practice/target/classes started by amirhosein in /home/amirhosein/Projects/doro/Spring-AOP/logging_practice)
+2025-07-16 12:09:45 INFO  c.e.l.LoggingPracticeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 12:09:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 12:09:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2025-07-16 12:09:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-16 12:09:46 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 12:09:46 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 12:09:46 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-16 12:09:46 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 12:09:46 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1115 ms
+2025-07-16 12:09:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 12:09:47 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-07-16 12:09:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 12:09:47 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-16 12:09:47 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 12:09:47 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-16 12:09:47 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-16 12:09:47 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-16 12:09:48 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-16 12:09:48 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 12:09:48 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 12:09:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-07-16 12:09:48 INFO  c.e.l.LoggingPracticeApplication - Started LoggingPracticeApplication in 3.667 seconds (process running for 4.353)
+2025-07-16 12:09:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 12:09:57 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 12:09:57 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-16 12:09:57 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 109 ms
+2025-07-16 12:10:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 12:10:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 12:10:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 12:13:09 INFO  c.e.l.LoggingPracticeApplication - Starting LoggingPracticeApplication using Java 21.0.6 with PID 17199 (/home/amirhosein/Projects/doro/Spring-AOP/logging_practice/target/classes started by amirhosein in /home/amirhosein/Projects/doro/Spring-AOP/logging_practice)
+2025-07-16 12:13:09 INFO  c.e.l.LoggingPracticeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 12:13:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 12:13:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2025-07-16 12:13:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-16 12:13:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 12:13:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 12:13:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-16 12:13:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 12:13:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1045 ms
+2025-07-16 12:13:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 12:13:10 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-07-16 12:13:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 12:13:10 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-16 12:13:10 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 12:13:10 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-16 12:13:10 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-16 12:13:10 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-16 12:13:11 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-16 12:13:11 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 12:13:12 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 12:13:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-07-16 12:13:12 INFO  c.e.l.LoggingPracticeApplication - Started LoggingPracticeApplication in 3.424 seconds (process running for 4.009)
+2025-07-16 12:13:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 12:13:17 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 12:13:17 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-16 12:13:18 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 103 ms
+2025-07-16 12:13:22 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 12:13:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 12:13:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 17:14:34 INFO  c.e.l.LoggingPracticeApplication - Starting LoggingPracticeApplication using Java 21.0.6 with PID 28037 (/home/amirhosein/Projects/doro/Spring-AOP/logging_practice/target/classes started by amirhosein in /home/amirhosein/Projects/doro/Spring-AOP/logging_practice)
+2025-07-16 17:14:34 INFO  c.e.l.LoggingPracticeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 17:14:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 17:14:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2025-07-16 17:14:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-16 17:14:36 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 17:14:36 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 17:14:36 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-16 17:14:36 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 17:14:36 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1159 ms
+2025-07-16 17:14:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 17:14:36 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-07-16 17:14:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 17:14:36 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-16 17:14:36 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 17:14:36 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-16 17:14:36 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-16 17:14:36 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-16 17:14:37 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-16 17:14:37 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 17:14:38 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 17:14:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 17:14:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 17:14:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 17:14:38 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-16 17:19:17 INFO  c.e.l.LoggingPracticeApplication - Starting LoggingPracticeApplication using Java 21.0.6 with PID 28597 (/home/amirhosein/Projects/doro/Spring-AOP/logging_practice/target/classes started by amirhosein in /home/amirhosein/Projects/doro/Spring-AOP/logging_practice)
+2025-07-16 17:19:17 INFO  c.e.l.LoggingPracticeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 17:19:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 17:19:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2025-07-16 17:19:18 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-07-16 17:19:18 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-16 17:19:18 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 17:19:18 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-16 17:19:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 17:19:18 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1023 ms
+2025-07-16 17:19:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 17:19:18 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-07-16 17:19:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 17:19:18 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-16 17:19:18 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 17:19:18 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-16 17:19:18 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-16 17:19:18 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-16 17:19:19 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-16 17:19:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 17:19:20 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-07-16 17:19:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2025-07-16 17:19:20 INFO  c.e.l.LoggingPracticeApplication - Started LoggingPracticeApplication in 3.419 seconds (process running for 3.956)
+2025-07-16 17:19:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 17:19:57 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 17:19:57 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-16 17:19:57 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [20] → returned 2432902008176640000
+2025-07-16 17:20:02 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [100] → returned 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
+2025-07-16 17:22:02 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [5] → returned 120
+2025-07-16 17:26:30 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 17:26:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 17:26:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-16 17:26:33 INFO  c.e.l.LoggingPracticeApplication - Starting LoggingPracticeApplication using Java 21.0.6 with PID 29033 (/home/amirhosein/Projects/doro/Spring-AOP/logging_practice/target/classes started by amirhosein in /home/amirhosein/Projects/doro/Spring-AOP/logging_practice)
+2025-07-16 17:26:33 INFO  c.e.l.LoggingPracticeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 17:26:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 17:26:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2025-07-16 17:26:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-07-16 17:26:34 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-16 17:26:34 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 17:26:34 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-16 17:26:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 17:26:34 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1194 ms
+2025-07-16 17:26:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-16 17:26:34 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-07-16 17:26:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-16 17:26:34 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-16 17:26:34 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 17:26:34 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-16 17:26:34 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-16 17:26:35 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-16 17:26:35 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-16 17:26:35 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 17:26:36 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-07-16 17:26:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2025-07-16 17:26:36 INFO  c.e.l.LoggingPracticeApplication - Started LoggingPracticeApplication in 3.723 seconds (process running for 4.46)
+2025-07-16 17:27:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 17:27:00 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 17:27:00 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-16 17:28:54 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [5] → returned 120
+2025-07-16 17:29:13 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [555] → returned 661408560927794670909833167124276990212353194561078966630610091508066518398462938708570165931453818774346806677937487622941296716409901122180791183381615199180133649323135568584492485536333258769584469786383591661922104266566863913614070698138881545530808522346156055053115762262612679476256481322688203567171111038254916285768948868390683387427561794062346854491689633073215348773710363218016157511181863057926134577070731221701301152592821760868454925199903505386017787199554004695300736714548162986647886019771379144075642172619449355885906311490931562018599832173006150698910081357711177369686310362939324425024584999311539904643730800189147272918915911770251276375152459026027462464002063813902395684537655374791000270699823191370607631655257869634515506590089013974314269381678319888713892407305906053693865079154285101747723299382026182512365914527438847783156831674629869733219475045947728356608604070725171727115599864469722301348700056888092787342824689113236014679770929700834913475709726807511726110607658874785711823552896770088837953463376048502815279955957922924689302538415337162205637471098765281762231617571867644711936978426265600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+2025-07-16 17:29:20 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [500] → returned 1220136825991110068701238785423046926253574342803192842192413588385845373153881997605496447502203281863013616477148203584163378722078177200480785205159329285477907571939330603772960859086270429174547882424912726344305670173270769461062802310452644218878789465754777149863494367781037644274033827365397471386477878495438489595537537990423241061271326984327745715546309977202781014561081188373709531016356324432987029563896628911658974769572087926928871281780070265174507768410719624390394322536422605234945850129918571501248706961568141625359056693423813008856249246891564126775654481886506593847951775360894005745238940335798476363944905313062323749066445048824665075946735862074637925184200459369692981022263971952597190945217823331756934581508552332820762820023402626907898342451712006207714640979456116127629145951237229913340169552363850942885592018727433795173014586357570828355780158735432768888680120399882384702151467605445407663535984174430480128938313896881639487469658817504506926365338175055478128640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+2025-07-16 17:29:23 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [20] → returned 2432902008176640000
+2025-07-16 17:29:26 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [50] → returned 30414093201713378043612608166064768844377641568960512000000000000
+2025-07-16 17:29:30 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [80] → returned 71569457046263802294811533723186532165584657342365752577109445058227039255480148842668944867280814080000000000000000000
+2025-07-16 17:29:32 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [90] → returned 1485715964481761497309522733620825737885569961284688766942216863704985393094065876545992131370884059645617234469978112000000000000000000000
+2025-07-16 17:29:36 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [800] → returned 771053011335386004144639397775028360595556401816010239163410994033970851827093069367090769795539033092647861224230677444659785152639745401480184653174909762504470638274259120173309701702610875092918816846985842150593623718603861642063078834117234098513725265045402523056575658860621238870412640219629971024686826624713383660963127048195572279707711688352620259869140994901287895747290410722496106151954257267396322405556727354786893725785838732404646243357335918597747405776328924775897564519583591354080898117023132762250714057271344110948164029940588827847780442314473200479525138318208302427727803133219305210952507605948994314345449325259594876385922128494560437296428386002940601874072732488897504223793518377180605441783116649708269946061380230531018291930510748665577803014523251797790388615033756544830374909440162270182952303329091720438210637097105616258387051884030288933650309756289188364568672104084185529365727646234588306683493594765274559497543759651733699820639731702116912963247441294200297800087061725868223880865243583365623482704395893652711840735418799773763054887588219943984673401051362280384187818611005035187862707840912942753454646054674870155072495767509778534059298038364204076299048072934501046255175378323008217670731649519955699084482330798811049166276249251326544312580289357812924825898217462848297648349400838815410152872456707653654424335818651136964880049831580548028614922852377435001511377656015730959254647171290930517340367287657007606177675483830521499707873449016844402390203746633086969747680671468541687265823637922007413849118593487710272883164905548707198762911703545119701275432473548172544699118836274377270607420652133092686282081777383674487881628800801928103015832821021286322120460874941697199487758769730544922012389694504960000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+2025-07-16 17:34:32 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [700] → returned 2422040124750272179867875093812352218590983385729207299450679664929938160215647420444519051666484819249321456671497049842327525093874817343838393757631459228450828499972271274140160311057830558463636337124079332447820739281101037112665387537180790257577919273108262916904750405235055060084012219492892375635136296622020023178109619818046179906897450420548912610870589088056503913584562211037693288782960900195074130999799035970711436279339094292032866260496375825461427727555710003007752906141470639574390024988514914264449865006458873226951941899545970333910351588559232940829569276986080222200289966128343931630028789203382654749603473516314765262772257171154686716862814184728741187147936349501653197457455660413134506049122044947052623384682088864790673309569292384215611788014274954905914148362303226200246816441301934846080254998647325270606104512088058712293349862185399243309054299576381718806247238195232604642614329894070636163753672091232751612378348273840757873567717532879242518337119540602943609411629349009566043720836737401090882392975031224612531245642687296717053747734506443314924558119560479901478736209556925161517737110399754730551854066328420014728657896286936523787080206476327157136441318773432751007263108056958251693811280957243202460157111778617472683761623869704457588005158037495665069625778930898095725794710701639238231528115579619120287378689238934335198508665933917257143975277707590597511989345068701735940169672561864713107115016747368992690116082633762172346688969840862517264384000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+2025-07-16 17:35:27 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 17:35:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-16 17:35:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,60 +1,31 @@
-2025-07-16 12:09:45 INFO  c.e.l.LoggingPracticeApplication - Starting LoggingPracticeApplication using Java 21.0.6 with PID 16812 (/home/amirhosein/Projects/doro/Spring-AOP/logging_practice/target/classes started by amirhosein in /home/amirhosein/Projects/doro/Spring-AOP/logging_practice)
-2025-07-16 12:09:45 INFO  c.e.l.LoggingPracticeApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-16 12:09:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-16 12:09:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
-2025-07-16 12:09:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-07-16 12:09:46 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-07-16 12:09:46 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-16 12:09:46 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
-2025-07-16 12:09:46 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-16 12:09:46 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1115 ms
-2025-07-16 12:09:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-07-16 12:09:47 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-07-16 12:09:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-07-16 12:09:47 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-07-16 12:09:47 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-16 12:09:47 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
-2025-07-16 12:09:47 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-07-16 12:09:47 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-16 12:09:48 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-16 12:09:48 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-16 12:09:48 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-07-16 12:09:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-2025-07-16 12:09:48 INFO  c.e.l.LoggingPracticeApplication - Started LoggingPracticeApplication in 3.667 seconds (process running for 4.353)
-2025-07-16 12:09:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-16 12:09:57 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-07-16 12:09:57 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-07-16 12:09:57 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 109 ms
-2025-07-16 12:10:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-16 12:10:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-07-16 12:10:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-07-16 12:13:09 INFO  c.e.l.LoggingPracticeApplication - Starting LoggingPracticeApplication using Java 21.0.6 with PID 17199 (/home/amirhosein/Projects/doro/Spring-AOP/logging_practice/target/classes started by amirhosein in /home/amirhosein/Projects/doro/Spring-AOP/logging_practice)
-2025-07-16 12:13:09 INFO  c.e.l.LoggingPracticeApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-16 12:13:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-16 12:13:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
-2025-07-16 12:13:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-07-16 12:13:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-07-16 12:13:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-16 12:13:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
-2025-07-16 12:13:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-16 12:13:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1045 ms
-2025-07-16 12:13:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-07-16 12:13:10 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-07-16 12:13:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-07-16 12:13:10 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-07-16 12:13:10 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-16 12:13:10 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
-2025-07-16 12:13:10 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-07-16 12:13:10 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-16 12:13:11 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-16 12:13:11 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-16 12:13:12 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-07-16 12:13:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-2025-07-16 12:13:12 INFO  c.e.l.LoggingPracticeApplication - Started LoggingPracticeApplication in 3.424 seconds (process running for 4.009)
-2025-07-16 12:13:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-16 12:13:17 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-07-16 12:13:17 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-07-16 12:13:18 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 103 ms
-2025-07-16 12:13:22 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-16 12:13:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-07-16 12:13:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-19 08:29:41 INFO  c.e.l.LoggingPracticeApplication - Starting LoggingPracticeApplication using Java 21.0.6 with PID 5479 (/home/amirhosein/Projects/doro/Spring-AOP/logging_practice/target/classes started by amirhosein in /home/amirhosein/Projects/doro/Spring-AOP/logging_practice)
+2025-07-19 08:29:41 INFO  c.e.l.LoggingPracticeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-19 08:29:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-19 08:29:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+2025-07-19 08:29:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-07-19 08:29:42 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-19 08:29:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-19 08:29:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-07-19 08:29:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-19 08:29:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1243 ms
+2025-07-19 08:29:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-19 08:29:42 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-07-19 08:29:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-19 08:29:42 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-07-19 08:29:42 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-19 08:29:42 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-07-19 08:29:42 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-19 08:29:43 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-19 08:29:43 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-19 08:29:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19 08:29:44 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-07-19 08:29:44 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2025-07-19 08:29:44 INFO  c.e.l.LoggingPracticeApplication - Started LoggingPracticeApplication in 4.226 seconds (process running for 5.126)
+2025-07-19 08:30:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-19 08:30:42 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-19 08:30:42 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-19 08:30:42 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [500] → returned 1220136825991110068701238785423046926253574342803192842192413588385845373153881997605496447502203281863013616477148203584163378722078177200480785205159329285477907571939330603772960859086270429174547882424912726344305670173270769461062802310452644218878789465754777149863494367781037644274033827365397471386477878495438489595537537990423241061271326984327745715546309977202781014561081188373709531016356324432987029563896628911658974769572087926928871281780070265174507768410719624390394322536422605234945850129918571501248706961568141625359056693423813008856249246891564126775654481886506593847951775360894005745238940335798476363944905313062323749066445048824665075946735862074637925184200459369692981022263971952597190945217823331756934581508552332820762820023402626907898342451712006207714640979456116127629145951237229913340169552363850942885592018727433795173014586357570828355780158735432768888680120399882384702151467605445407663535984174430480128938313896881639487469658817504506926365338175055478128640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+2025-07-19 08:30:56 INFO  c.e.l.log.LoggingAspect - Method factorial called with args [20] → returned 2432902008176640000
+2025-07-19 08:32:14 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19 08:32:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-19 08:32:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
